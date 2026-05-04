@@ -1,11 +1,11 @@
 package main
 
-import (
-	"fmt"
+import "fmt"
 
-	"rsc.io/quote"
-)
+func hellowOrld() {
+	fmt.Println("hellow orld")
+}
 
-func main() {
-	fmt.Println(quote.Go())
+func execute() {
+	hellowOrld()
 }
