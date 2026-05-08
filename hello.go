@@ -3,9 +3,13 @@ package main
 import "fmt"
 
 func hellowOrld() {
-	fmt.Println("hellow orld")
+	fmt.Println("hello world")
 }
 
 func execute() {
 	hellowOrld()
+}
+
+func main() {
+	execute()
 }
